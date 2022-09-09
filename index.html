@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task List</title>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="banner">Task List 2022 By Long</h1>
+      <form id="new-task-form">
+        <input
+          type="text"
+          id="new-task-input"
+          placeholder="What do you want to planned?"
+          name="task-id"
+        />
+        <input type="submit" id="new-task-submit" value="Add task..." />
+      </form>
+    </header>
+    <div class="containner">
+      <section class="task-list">
+        <h2>Tasks</h2>
+        <div id="tasks">
+          <!-- <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="my Shiny task" readonly>
+                    </div>
+                    <div class="action">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+        </div>
+      </section>
+    </div>
+
+    <script type="module" src="./component/app.js"></script>
+  </body>
+</html>
